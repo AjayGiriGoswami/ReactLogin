@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 80px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"] {
+  margin-bottom: 20px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+input[type="checkbox"] {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(240, 2, 2);
+  border-radius: 50px;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+p a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+p a:hover {
+  color: red;
+}
+
+.error {
+  color: red;
+}
+
+@media screen and (max-width: 400px) {
+  .login-container {
+    padding: 10px;
+  }
+
+  h1 {
+    margin-bottom: 15px;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    margin-bottom: 15px;
+  }
+
+  button {
+    padding: 8px 15px;
+  }
+}

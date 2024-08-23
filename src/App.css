@@ -1,36 +1,32 @@
-.outcard {
-  padding: 25px;
-  margin-left: 22%;
-  width: 50%;
-  box-shadow: 0 1px 2px 1px #ddd;
-  border-radius: 3px;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .card {
-  box-shadow: 0 1px 2px 1px #ddd;
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-  background-color: #eee;
-}
-
-.inputs {
-  width: 93%;
-  color: #444;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  padding: 10px 10px;
-}
-
-.btns {
-  background-color: #0050b1;
-  color: #fff;
-  width: 100%;
-  padding: 10px 10px;
-  border-radius: 3px;
-  border: none;
-}
-
-.center {
+  background-color: #fff;
+  border: 1px solid #a02323;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: calc(33.33% - 20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+}
+
+.card .user {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card .title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card .body {
+  font-size: 18px;
+  color: #666;
 }
